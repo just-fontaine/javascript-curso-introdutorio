@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Somando...</title>
+    <style>
+
+        body{
+            font: normal 15pt arial;
+        }
+        
+        h1{
+            margin-left: 10px;
+        }
+        input#txtn1{
+            margin-left: 10px;
+            font: normal 15pt arial;
+            width: 200px;
+        }
+        input#txtn2{
+            font: normal 15pt arial;
+            width: 200px;
+
+        }
+        div#res{
+            font: normal 20pt arial;
+            margin-top: 30px;
+            margin-left: 10px;    
+        }
+        input#CAIXA_SOMA{
+            margin-left: 10px;
+            font: normal 15pt arial;
+        }
+    </style>
+</head>
+<body>
+    <h1>Somando Valores</h1>
+    <input type="number" name="txtn1" id="txtn1"> +
+    <input type="number" name="txtn2" id="txtn2">
+    <input type="button" id='CAIXA_SOMA' value="SOMAR" onclick="somar()">
+
+    <div id="res">RESULTADO: <strong>0</strong></div>
+    <script>
+        function somar(){
+            var caixa1 = window.document.getElementById('txtn1')
+            var caixa2 = window.document.querySelector('input#txtn2')
+
+            var res = window.document.getElementById('res')
+            var numero1 = Number(caixa1.value)
+            var numero2 = Number(caixa2.value)
+            var soma = numero1 + numero2
+            res.innerHTML = `RESULTADO: <strong>${soma}<strong>`
+        }
+
+    </script>
+</body>
+</html>

@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>First Script</title>
+    <style>
+        body{
+background-color: rgb(20, 1, 40);
+color: white;
+font: normal 15pt Arial;                     /*Comentário em CSS*/
+        }
+        h1{
+color: cyan;
+        }
+        p{
+            color: springgreen;
+        }
+    </style>
+</head>                                    <!--Comentário em HTML-->>
+<body>
+    <script>
+        var n1 = Number(window.prompt('Digite um número.'))
+        var n2 = Number(window.prompt('Digite outro número.'))
+        soma = n1 + n2
+        window.alert(`A soma é: ${String(soma)}`)   // pode ser: soma.toString()
+    </script>
+    <h1>Olá, mundo!</h1> 
+    <p>Já me livrei da maldição...</p>
+</body>
+</html>

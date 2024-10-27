@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            font: normal 20pt Arial;
+        }
+    </style>
+</head>
+<body>
+    <script>
+        var nome = window.prompt('What is your name?')
+        var dollar = Number(window.prompt('How much money do you have?'))
+                        // never forget to switch from String to Number
+        var reais = dollar * 5.46
+
+        document.write(`Hello, ${nome}! Your name has ${nome.length} letters!<br/>`)
+        document.write(`Your name in uppercase is <Strong>${nome.toUpperCase()}</Strong>!<br/>`)
+        document.write(`Your name in lowercase is <Strong>${nome.toLowerCase()}</Strong>.<br/>`)
+        document.write(`You have <Strong>$${dollar.toFixed(2)}</Strong> dollars in your account.<br/>`)
+        document.write(`And you have R$${reais.toFixed(2).replace(',', '.')} in your account.`)
+    </script>
+</body>
+</html>

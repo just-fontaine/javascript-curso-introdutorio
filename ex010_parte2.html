@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gringo?</title>
+    <style>
+        div{
+            font: normal 15pt arial;
+        }
+
+        input{
+            font: normal 15pt arial;
+        }
+    </style>
+</head>
+<body>
+    <div><strong>País: </strong></div> <input type="text" id="caixatexto">
+
+
+    <input type="button" value="Verificar" onclick="verificar()">
+
+
+    <div id="res">
+        <p><strong>Você é: </strong></p>
+    </div>
+
+    <script>
+        function verificar(){
+            var caixa_texto = window.document.querySelector('input#caixatexto')
+            var pais = caixa_texto.value
+            var res = window.document.querySelector('div#res')
+
+            if (pais == 'Brasil'){
+                res.innerHTML = `<p><strong>Você é BRASILEIRO!</strong></p>`
+            }
+            else{
+                res.innerHTML = '<p><strong>Você é ESTRANGEIRO!</strong></p>'
+            }
+        }
+
+    </script>
+</body>
+</html>

@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>First Steps with DOM</title>
+    <style>
+        body {
+            background-color: rgb(1, 80, 76);
+            font: normal 15pt arial
+        }
+
+            div{
+                color: rgb(7, 158, 189)
+            }
+
+            h1{
+                color: rgb(255, 255, 255);
+            }
+            
+            p{
+                color: rgb(176, 2, 192); 
+            }
+    </style>
+</head>
+<body>
+    <h1> Leaning DOM </h1>
+    <p> Smaller letters. . . </p>
+    <p> This is <strong>STRONG</strong></p>
+    <div id="msg">Clique em mim </div>
+    
+    <script>
+        var paragrafo1 = window.document.getElementsByTagName('p')[0]
+        paragrafo1.style.color = 'blue'
+        document.write(`Está escrito assim: ${paragrafo1.innerText}`)
+
+        var corpo = window.document.body
+        corpo.style.background = 'green'
+
+        /*
+        var div1 = window.document.getElementById('msg')
+        div1.style.background = 'blue'
+        div1.innerText = 'Modifiquei aqui tlg...'
+        // window.alert(div1.innerText)
+        */
+        
+        var div1 = document.querySelector('div#msg')    // ID == # (div#msg)
+                                                        // CLASS == . (div.msg)
+                                                        
+        // window.alert(div1.innerText)
+        
+        </script>
+</body>
+</html>
