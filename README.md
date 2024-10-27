@@ -1,6 +1,6 @@
-<h3>Exercicios curso introdutório de Javascript</h3>
+<h3>Exercícios curso introdutório de Javascript</h3>
 
-<p>Exercicios feitos durante o curso de Javascript do professor Gustavo Guanabara.
+<p>Exercícios feitos durante o curso de Javascript do professor Gustavo Guanabara.
   Esses exercícios utilizam as linguagens HTML, CSS e Javascript,
   porém com foco total na linguagem de programação.</p>
 
