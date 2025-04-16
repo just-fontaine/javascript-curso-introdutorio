@@ -1,7 +1,13 @@
-<h3>Exercícios curso introdutório de Javascript</h3>
+# Exercícios - Curso Introdutório de JavaScript
 
-<p>Exercícios feitos durante o curso de Javascript do professor Gustavo Guanabara.
-  Esses exercícios utilizam as linguagens HTML, CSS e Javascript,
-  porém com foco total na linguagem de programação.</p>
+Este repositório contém os exercícios realizados durante o curso de JavaScript ministrado pelo professor Gustavo Guanabara. O foco principal é a linguagem de programação JavaScript, com o uso de HTML e CSS para a construção das páginas e interação.
 
-[Link Curso](https://www.youtube.com/watch?v=1-w1RfGIov4&list=PLHz_AreHm4dlsK3Nr9GVvXCbpQyHQl1o1)
+## Descrição
+
+Os exercícios abordam conceitos fundamentais de JavaScript, com ênfase no desenvolvimento prático e aplicação dos conceitos aprendidos ao longo do curso. A utilização de HTML e CSS é feita para complementar o aprendizado, criando páginas interativas e dinâmicas.
+
+## Tecnologias Utilizadas
+
+- **JavaScript**: Linguagem de programação principal.
+- **HTML**: Estruturação de páginas.
+- **CSS**: Estilização das páginas.
